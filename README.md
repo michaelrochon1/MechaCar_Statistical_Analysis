@@ -46,16 +46,16 @@ When we examine the variance of the total manufacturing lot we see that the vari
 
 ### T-Test Lot 1
 
-![T-Test All](Resources/ttest_lot1.png)
+![T-Test Lot1](Resources/ttest_lot1.png)
 
 
 
 ### T-Test Lot 2
 
-![T-Test All](Resources/ttest_lot2.png)
+![T-Test Lot2](Resources/ttest_lot2.png)
 
 
 
 ### T-Test Lot 3
 
-![T-Test All](Resources/ttest_lot3.png)
+![T-Test Lot3](Resources/ttest_lot3.png)
