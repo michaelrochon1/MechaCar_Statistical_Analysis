@@ -42,20 +42,29 @@ When we examine the variance of the total manufacturing lot we see that the vari
 
 ![T-Test All](Resources/ttest_all.png)
 
-
+The T-Test on all manugacturing lots showed a p-value of .6028, with an alpha of .05. With the p-value being above .05 this lot is not statistically significant from the normal distribution. The mean also falls within the 95% confidence interval.
 
 ### T-Test Lot 1
 
 ![T-Test Lot1](Resources/ttest_lot1.png)
 
-
+The T-Test for Lot 1 gave a p-value of 1 with an alpha of .05. The p-value is above .05 and is therefore not statistically significant from the normal distribution and the mean falls within the 95% confidence interval. 
 
 ### T-Test Lot 2
 
 ![T-Test Lot2](Resources/ttest_lot2.png)
 
-
+The T-Test for Lot 1 gave a p-value of .6072 with an alpha of .05. The p-value is above .05 and is therefore not statistically significant from the normal distribution and the mean falls within the 95% confidence interval.
 
 ### T-Test Lot 3
 
 ![T-Test Lot3](Resources/ttest_lot3.png)
+
+Lot 3's T-Test returned a p-value of .04168 at the alpha .05. This means that it is statistically significant from the normal distribution, even if the mean falls within the 95% confidence interval.
+
+3 out of the 4 T-tests suggest a normal distribution and therefore there is not sufficient evidence to reject the null hypothesis. which shows the means as statistically similar.
+
+
+## Study Design
+
+When comparing MechaCar to other car manufacturers further points of analysis that could prove fruitful could be the horsepower, torque, and cargo capacity. The null hypothesis for these points of analysis would be that these different aspects of the cars would have no effect on mpg of MechaCar's vehicles. An alterative hypothesis could be that these aspects have a negative impact on the mpg of MechaCar's vehicles. These three new dimensions of data would work well in a multiple linear regression model to show how these variable impact not only mpg, but also each other and the cars of MechaCar's competitors. Finally, for this study to take place we would need a random sample of data for vehicles of both MechaCar and its competitors vehicles. Ideally, the data set would be greater than 50 data points and contain a data on all three variables for all the vehicles.This way would would be able to use the data with RStudio and be confident with the results we got from the models.
